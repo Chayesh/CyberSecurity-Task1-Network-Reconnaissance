@@ -1,0 +1,6 @@
+Nmap scan report for 192.168.xx.x
+Host is up (0.0019s latency).
+
+PORT   STATE SERVICE
+53/udp open  domain
+MAC Address: 00:50:56:F2:FC:5A (VMware)

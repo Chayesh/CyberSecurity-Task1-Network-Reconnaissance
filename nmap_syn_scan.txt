@@ -1,0 +1,24 @@
+Nmap scan report for 192.168.xx.x
+Host is up (0.0058s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+MAC Address: 00:50:56:C0:00:08 (VMware)
+
+Nmap scan report for 192.168.xx.x
+Host is up (0.00026s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE    SERVICE
+53/tcp filtered domain
+MAC Address: 00:50:56:F2:FC:5A (VMware)
+
+Nmap scan report for 192.168.xx.xxx
+Host is up (0.00022s latency).
+All 1000 scanned ports on 192.168.xx.xxx are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 00:50:56:E2:3D:CF (VMware)
+
+Nmap scan report for 192.168.xx.xxx
+Host is up (0.0000050s latency).
+All 1000 scanned ports on 192.168.xx.xxx are in ignored states.
+Not shown: 1000 closed tcp ports (reset)

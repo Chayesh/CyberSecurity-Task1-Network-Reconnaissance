@@ -1,0 +1,10 @@
+# Nmap 7.95 scan initiated Mon Oct 20 08:53:56 2025 as: /usr/lib/nmap/nmap -sS -oG scan_results.gnmap 192.168.15.x/24
+Host: 192.168.15.x ()	Status: Up
+Host: 192.168.15.x ()	Ports: 	Ignored State: filtered (1000)
+Host: 192.168.15.x ()	Status: Up
+Host: 192.168.15.x ()	Ports: 53/open/tcp//domain///	Ignored State: closed (999)
+Host: 192.168.15.x ()	Status: Up
+Host: 192.168.15.x ()	Ports: 	Ignored State: filtered (1000)
+Host: 192.168.15.x ()	Status: Up
+Host: 192.168.15.x ()	Ports: 	Ignored State: closed (1000)
+# Nmap done at Mon Oct 20 08:54:08 2025 -- 256 IP addresses (4 hosts up) scanned in 12.47 seconds

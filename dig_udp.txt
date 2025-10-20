@@ -1,0 +1,30 @@
+
+; <<>> DiG 9.20.11-4+b1-Debian <<>> @192.168.15.2 example.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 50943
+;; flags: qr rd ra; QUERY: 1, ANSWER: 6, AUTHORITY: 2, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; MBZ: 0x0005, udp: 1232
+;; QUESTION SECTION:
+;example.com.			IN	A
+
+;; ANSWER SECTION:
+example.com.		5	IN	A	23.192.228.80
+example.com.		5	IN	A	23.192.228.84
+example.com.		5	IN	A	23.215.0.136
+example.com.		5	IN	A	23.215.0.138
+example.com.		5	IN	A	23.220.75.232
+example.com.		5	IN	A	23.220.75.245
+
+;; AUTHORITY SECTION:
+example.com.		5	IN	NS	a.iana-servers.net.
+example.com.		5	IN	NS	b.iana-servers.net.
+
+;; Query time: 240 msec
+;; SERVER: 192.168.xx.x#53(192.168.xx.x) (UDP)
+;; WHEN: Mon Oct 20 09:18:46 EDT 2025
+;; MSG SIZE  rcvd: 184
+

@@ -1,0 +1,24 @@
+
+; <<>> DiG 9.20.11-4+b1-Debian <<>> @192.168.15.2 example.com +tcp
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 60251
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 6, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;example.com.			IN	A
+
+;; ANSWER SECTION:
+example.com.		287	IN	A	23.192.228.80
+example.com.		287	IN	A	23.220.75.245
+example.com.		287	IN	A	23.220.75.232
+example.com.		287	IN	A	23.215.0.138
+example.com.		287	IN	A	23.215.0.136
+example.com.		287	IN	A	23.192.228.84
+
+;; Query time: 56 msec
+;; SERVER: 192.168.xx.x#53(192.168.xx.x) (TCP)
+;; WHEN: Mon Oct 20 09:18:46 EDT 2025
+;; MSG SIZE  rcvd: 125
+
